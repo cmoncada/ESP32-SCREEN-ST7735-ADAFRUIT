@@ -24,13 +24,9 @@ void setup(void) {
 
 void loop() {
   tft.fillScreen(ST7735_BLACK);
-
-  // Agregar texto en la pantalla
-  tft.setCursor(10, 10); // Establece la posición del cursor
-  tft.setTextColor(ST7735_WHITE); // Establece el color del texto
-  tft.setTextSize(2); // Establece el tamaño del texto
-  tft.println("Hola, Mundooo"); // Imprime el texto en la pantalla
-
-  // Espera un momento
+  tft.setCursor(10, 10);
+  tft.setTextColor(ST7735_WHITE);
+  tft.setTextSize(2);
+  tft.println("Hola, Mundooo");
   delay(1000);
 }
